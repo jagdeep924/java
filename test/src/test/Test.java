@@ -8,6 +8,7 @@ public class Test {
 		
 		System.out.println("Hello Sunday");
 		System.out.println("Its a beautiful day");
+		System.out.println("And its sunny");
 	}
 
 }

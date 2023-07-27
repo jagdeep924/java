@@ -33,7 +33,7 @@ public class assignment3 {
 				    totalRolls = totalRolls + diceRolls[index];
 				}
 				System.out.println("Total rolls were: " + totalRolls);
-				System.out.println("Program by Jagdeep Kaur");
+				System.out.println("Program by Jagdeep");
 
 			}
 

@@ -27,7 +27,7 @@ public class assignment3 {
 				// sample the rolls
 				for(int count = 0; count < 1000; count++) {
 				    roll = (int)(Math.random() * 20) + 1;
-				    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; // crashes
+				    diceRolls[roll - 1] = diceRolls[roll - 1] + 1; //As i changed diceRoll[roll] to diceRoll[roll-1] program will not Crash
 				}	
 				// run a report
 				for(int index = 0; index < diceRolls.length; index++) {

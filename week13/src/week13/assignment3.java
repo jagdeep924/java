@@ -3,9 +3,9 @@ package week13;
 public class assignment3 {
 	
 		/*
-		 * Student Name: Stanley Pieda (professor)
-		 * Lab Professor: Stanley Pieda (professor)
-		 * Due Date: The due date
+		 * Student Name: Jagdeep Kaur 
+		 * Lab Professor: Sapinderjit Kaur
+		 * Due Date:28 July 2023
 		 * Description: Sample solution for Assignment 03 (21S)
 		 */
 
@@ -17,7 +17,9 @@ public class assignment3 {
 			/*
 			 * Entry point for the application.
 			 */
-			public static void main(String[] args) {
+			public static void main(String[] args)// Using main method to execute program
+			{
+				//declaring variable and initializing
 				int roll = 0;
 				int[] diceRolls = new int[20];
 				int totalRolls = 0;
@@ -32,6 +34,7 @@ public class assignment3 {
 				    System.out.printf("Count of %d is: %d%n", (index + 1), diceRolls[index]);
 				    totalRolls = totalRolls + diceRolls[index];
 				}
+				
 				System.out.println("Total rolls were: " + totalRolls);
 				System.out.println("Program by Jagdeep");
 
